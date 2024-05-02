@@ -21,4 +21,4 @@ class GreetingsToolkit(BaseToolkit, ABC):
         ]
 
     def get_env_keys(self) -> List[str]:
-        return ["FROM"]
+        return []
